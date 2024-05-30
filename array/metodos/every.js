@@ -1,0 +1,3 @@
+const todosItensSaoNumeross = array.every(item => typeof item === 'number') //se todos(every) os itens dentro do array forem números, retorna true
+const todosItensSaoNumeros = array.every(item => {return typeof item === 'number'}) //posso fazer assim também. Aqui estou fazendo um return booleano no qual quero saber se todos os itens do array são números
+document.body.innerText = JSON.stringify(todosItensSaoNumeros)
